@@ -9,4 +9,4 @@ services:
   - docker-compose
 
 script:
-  - mvn clean install
+  - mvn deploy

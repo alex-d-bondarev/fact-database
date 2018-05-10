@@ -59,6 +59,19 @@
 							</arguments>
 						</configuration>
 					</execution>
+
+					<execution>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<phase>deploy</phase>
+						<configuration>
+							<executable>docker-compose</executable>
+							<arguments>
+								<argument>push</argument>
+							</arguments>
+						</configuration>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
