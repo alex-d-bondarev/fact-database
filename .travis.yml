@@ -8,5 +8,8 @@ services:
   - docker
   - docker-compose
 
+before_script:
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+
 script:
   - mvn deploy
