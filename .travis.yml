@@ -13,3 +13,6 @@ before_script:
 
 script:
   - mvn deploy
+
+after_script:
+  - docker-compose -f redeploy-compose.yml up

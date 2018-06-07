@@ -1,0 +1,10 @@
+version: "2.1"
+
+services:
+  redeploy:
+    image: google/cloud-sdk
+    environment:
+      - GCLOUD_KEY=${GCLOUD_KEY}
+    volumes:
+      - "./:/workspace"
+    command: /bin/sh -c /workspace/redeploy.sh
