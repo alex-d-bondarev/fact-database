@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo $GCLOUD_KEY | cat > key.json
+echo $GCLOUD_KEY | base64 --decode > key.json
 
 gcloud auth activate-service-account cdkata@cdkata-206512.iam.gserviceaccount.com --key-file=key.json
 gcloud config set project cdkata-206512
