@@ -1,4 +1,9 @@
-# fact-database [![Build Status](https://travis-ci.org/CyborTronik/fact-database.svg?branch=master)](https://travis-ci.org/CyborTronik/fact-database)
+# fact-database 
+
+[![Build Status](https://travis-ci.org/CyborTronik/fact-database.svg?branch=master)](https://travis-ci.org/CyborTronik/fact-database)
+
+You can copy and reuse code [![MIT License](http://img.shields.io/badge/license-MIT-green.svg)](https://github.com/selenide/selenide/blob/master/LICENSE)
+
 Training for CI/CD
 
 
